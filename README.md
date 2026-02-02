@@ -1,4 +1,4 @@
-# h0peAi – AI Tool Landing Page
+# h0peAi Landing Page
 
 h0peAi is a modern, responsive landing page built to showcase an AI-powered productivity tool.  
 The project focuses on clean UI, smooth user experience, and clear presentation of features, benefits, and call-to-action sections.
