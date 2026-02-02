@@ -1,0 +1,7 @@
+.navbar-toggler-icon {
+  background-image: url("../../../images/icons/Icon\ Menu.png") !important;
+}
+
+.navbar .container .navbar-brand:hover {
+  cursor: pointer;
+}

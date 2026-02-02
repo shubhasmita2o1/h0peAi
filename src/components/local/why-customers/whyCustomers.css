@@ -1,0 +1,11 @@
+.why-customers .container h3 {
+  width: fit-content;
+}
+.why-customers .container .row .col-12 div {
+  border: 1px solid #f4f4f6;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}

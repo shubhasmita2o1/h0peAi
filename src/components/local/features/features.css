@@ -1,0 +1,32 @@
+.features .container .row .col-12 {
+  margin-top: 1rem;
+}
+
+.features .container .row .col-12 div {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.features .container .row .col-12:first-child div div,
+.features .container .row .col-12:nth-child(5) div div {
+  background-color: #30cafb;
+}
+
+.features .container .row .col-12:nth-child(2) div div,
+.features .container .row .col-12:last-child div div {
+  background-color: #fb5530;
+}
+
+.features .container .row .col-12:nth-child(3) div div,
+.features .container .row .col-12:nth-child(4) div div {
+  background-color: #30fb81;
+}
+
+.features .container .row .col-12 div img {
+  width: 25px;
+}

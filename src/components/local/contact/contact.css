@@ -1,0 +1,21 @@
+.contact .container .help div img {
+  padding: 12px;
+}
+.contact .container .help div:nth-child(2) img {
+  width: 60px;
+}
+
+.contact .container div:last-child div {
+  width: 100% !important;
+}
+
+.contact .container div:last-child div.form input,
+.contact .container div:last-child div.form textarea,
+.contact .container div:last-child div.form label::after {
+  background-color: #f4f4f6 !important;
+}
+
+.contact .container div:last-child div.form textarea {
+  height: 160px;
+  resize: none;
+}

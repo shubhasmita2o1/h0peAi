@@ -1,0 +1,43 @@
+.header .container {
+  border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -o-border-radius: 70px;
+}
+
+.header .container div.image {
+  width: 100%;
+}
+
+.header .container div.image::before {
+  position: absolute;
+  content: "";
+  width: 75%;
+  height: 100%;
+  background-image: url(../../../images/martin-martz-TjROipvPS5g-unsplash.jpg);
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .header .container div.image::before {
+    width: 100% !important;
+  }
+
+  .header .container {
+    padding: 40px 20px;
+  }
+
+  .header .container div.image {
+    height: 450px;
+  }
+}
+@media (min-width: 992px) {
+  .header .container {
+    padding-top: 100px;
+  }
+
+  .header .container div.image {
+    height: 550px;
+  }
+}
